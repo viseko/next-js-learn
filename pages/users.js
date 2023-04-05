@@ -4,7 +4,7 @@ import MainContainer from "../components/MainContainer";
 const Users = ({users}) => {
   return (
     <MainContainer>
-      <h1>Список чуваков</h1>
+      <h1>Список пользователей</h1>
       <ul>
         {
           users.map(user => (
